@@ -14,8 +14,14 @@ export class WasteCategoryComponent implements OnInit {
 
     public ngOnInit(): void {
         // converts HTML as text form into HTML Element that can be rendered
-        // todo sanitize for scripts
-        this.description = new DOMParser().parseFromString(this.wasteCategory.body, 'text/html').documentElement.textContent;
+        // sanitize all scripts
+        const document: Document = new DOMParser().parseFromString(this.wasteCategory.body, 'text/html');
+        const unsanitizedContent: string = document.documentElement.textContent;
+        if (unsanitizedContent !== null) {
+            // regex JQuery uses to sanitize scripts
+            const sanitizedContent: string = unsanitizedContent.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+            this.description = sanitizedContent;
+        }
     }
     public toggleFavourite(): void {
         this.wasteCategory.favourite = !this.wasteCategory.favourite;
