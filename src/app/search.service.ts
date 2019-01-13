@@ -19,8 +19,11 @@ export class SearchService {
 
     constructor(private _http: HttpClient) {
         this.fetchItems().subscribe((items: WasteCategory[]) => {
-            console.log(items);
-            this.allWasteCategories = items;
+            this.allWasteCategories = items.map(item => {
+                item.favourite = false;
+                return item;
+            });
+            console.log(this.allWasteCategories);
         });
     }
 
@@ -37,6 +40,7 @@ export class SearchService {
         return allItems.filter((item: WasteCategory) => {
             const itemKeywords: Array<string> = item.keywords.split(', ');
             // return true if either the keyword matches the supplied word, or the keyword contains the supplied word
+            // todo investigate if should only accept exact matches
             return itemKeywords.some(itemKey => itemKey === keyword || itemKey.includes(keyword));
         });
     }

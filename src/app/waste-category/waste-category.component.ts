@@ -9,7 +9,6 @@ import {WasteCategory} from '../models/wasteCategory';
 export class WasteCategoryComponent implements OnInit {
     public description: any;
     @Input() public wasteCategory: WasteCategory;
-    @Input() public favourite: boolean;
     @Output() public addToFavourites: EventEmitter<WasteCategory> = new EventEmitter<WasteCategory>();
     @Output() public removeFromFavourites: EventEmitter<WasteCategory> = new EventEmitter<WasteCategory>();
 
@@ -19,8 +18,8 @@ export class WasteCategoryComponent implements OnInit {
         this.description = new DOMParser().parseFromString(this.wasteCategory.body, 'text/html').documentElement.textContent;
     }
     public toggleFavourite(): void {
-        this.favourite = !this.favourite;
-        if (this.favourite) {
+        this.wasteCategory.favourite = !this.wasteCategory.favourite;
+        if (this.wasteCategory.favourite) {
             this.addToFavourites.emit(this.wasteCategory);
         } else {
             this.removeFromFavourites.emit(this.wasteCategory);

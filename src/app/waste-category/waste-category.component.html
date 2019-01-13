@@ -1,6 +1,8 @@
 <div class="category-container">
+    <button *ngIf="wasteCategory.favourite" (click)="toggleFavourite()">*</button>
+    <button *ngIf="!wasteCategory.favourite" (click)="toggleFavourite()">x</button>
     <div class="category-title">
-        {{wasteCategory.category}}
+        {{wasteCategory.title}}
     </div>
     <div class="category-description" [innerHTML]="description">
     </div>
