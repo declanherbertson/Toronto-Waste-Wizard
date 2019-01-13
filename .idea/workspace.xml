@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b55c6c5-d306-4bcb-b3ae-6eda8495d16e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/search.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/search.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/waste-wizard.PNG" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -40,6 +39,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="PNG" value="1" />
           <entry key="browserslist" value="1" />
           <entry key="css" value="3" />
           <entry key="html" value="9" />
@@ -55,7 +55,7 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="9" />
-          <entry key="Image" value="2" />
+          <entry key="Image" value="3" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="1" />
           <entry key="Less" value="13" />
@@ -108,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/search.service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -118,6 +118,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/waste-wizard.PNG">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -191,9 +196,8 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="933" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
@@ -210,11 +214,6 @@
               <item name="Toronto-Waste-Wizard" type="b2602c69:ProjectViewProjectNode" />
               <item name="Toronto-Waste-Wizard" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Toronto-Waste-Wizard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Toronto-Waste-Wizard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -226,7 +225,7 @@
     <property name="SearchEverywhereHistoryKey" value="favour&#9;null&#9;null&#10;favourite&#9;null&#9;null&#10;tslint&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/tslint.json&#10;app&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/app.component.ts&#10;appc&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/app.component.less&#10;wast&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/waste-category/waste-category.component.html&#10;waste&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/waste-category/waste-category.component.less&#10;font&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/node_modules/font-awesome/css/font-awesome.css&#10;style&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/styles.less&#10;angular&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/angular.json&#10;package.js&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/package.json&#10;sear&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/search.service.ts&#10;module&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547421791849" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547422007070" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -243,6 +242,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\decla\projectSpace\Toronto-Waste-Wizard" />
       <recent name="C:\Users\decla\projectSpace\Toronto-Waste-Wizard\src\assets" />
       <recent name="C:\Users\decla\projectSpace\Toronto-Waste-Wizard\src" />
     </key>
@@ -301,18 +301,18 @@
       <workItem from="1547345450680" duration="13710000" />
       <workItem from="1547409835087" duration="258000" />
       <workItem from="1547410659332" duration="29000" />
-      <workItem from="1547416203088" duration="5583000" />
+      <workItem from="1547416203088" duration="5840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19580000" />
+    <option name="totallyTimeSpent" value="19837000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1087" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10729167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21503131" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -522,6 +522,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waste-wizard.PNG">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
