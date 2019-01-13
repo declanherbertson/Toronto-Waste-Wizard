@@ -14,6 +14,6 @@ export class AppComponent {
     }
 
     public searchItems(keyword: string): void {
-        this._searchService.search(keyword.toLowerCase()).subscribe(console.log);
+        console.log(this._searchService.search(keyword.toLowerCase()));
     }
 }
