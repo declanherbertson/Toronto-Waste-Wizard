@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b55c6c5-d306-4bcb-b3ae-6eda8495d16e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/waste-wizard.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.less" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -46,7 +46,7 @@
           <entry key="ico" value="1" />
           <entry key="js" value="1" />
           <entry key="json" value="7" />
-          <entry key="less" value="13" />
+          <entry key="less" value="14" />
           <entry key="png" value="1" />
           <entry key="ts" value="25" />
         </counts>
@@ -58,7 +58,7 @@
           <entry key="Image" value="3" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="1" />
-          <entry key="Less" value="13" />
+          <entry key="Less" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="25" />
           <entry key="tsconfig" value="2" />
@@ -74,7 +74,7 @@
         <counts>
           <entry key="html" value="1035" />
           <entry key="json" value="83" />
-          <entry key="less" value="786" />
+          <entry key="less" value="813" />
           <entry key="ts" value="4929" />
         </counts>
       </usages-collector>
@@ -82,7 +82,7 @@
         <counts>
           <entry key="HTML" value="1035" />
           <entry key="JSON" value="83" />
-          <entry key="Less" value="786" />
+          <entry key="Less" value="813" />
           <entry key="TypeScript" value="4929" />
         </counts>
       </usages-collector>
@@ -121,6 +121,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/waste-wizard.PNG">
           <provider selected="true" editor-type-id="images" />
         </entry>
@@ -167,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/models/wasteItem.ts" />
         <option value="$PROJECT_DIR$/src/app/models/wasteCategory.ts" />
-        <option value="$PROJECT_DIR$/src/styles.less" />
         <option value="$PROJECT_DIR$/src/app/waste-category/waste-category.component.html" />
         <option value="$PROJECT_DIR$/src/app/waste-category/waste-category.component.less" />
         <option value="$PROJECT_DIR$/tslint.json" />
@@ -179,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/app/waste-category/waste-category.component.ts" />
         <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/search.service.ts" />
+        <option value="$PROJECT_DIR$/src/styles.less" />
       </list>
     </option>
   </component>
@@ -196,7 +205,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
@@ -222,10 +231,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="favour&#9;null&#9;null&#10;favourite&#9;null&#9;null&#10;tslint&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/tslint.json&#10;app&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/app.component.ts&#10;appc&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/app.component.less&#10;wast&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/waste-category/waste-category.component.html&#10;waste&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/waste-category/waste-category.component.less&#10;font&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/node_modules/font-awesome/css/font-awesome.css&#10;style&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/styles.less&#10;angular&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/angular.json&#10;package.js&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/package.json&#10;sear&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/search.service.ts&#10;module&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="style&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/styles.less&#10;favour&#9;null&#9;null&#10;favourite&#9;null&#9;null&#10;tslint&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/tslint.json&#10;app&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/app.component.ts&#10;appc&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/app.component.less&#10;wast&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/waste-category/waste-category.component.html&#10;waste&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/waste-category/waste-category.component.less&#10;font&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/node_modules/font-awesome/css/font-awesome.css&#10;angular&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/angular.json&#10;package.js&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/package.json&#10;sear&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/search.service.ts&#10;module&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547422007070" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547422327754" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -301,15 +310,15 @@
       <workItem from="1547345450680" duration="13710000" />
       <workItem from="1547409835087" duration="258000" />
       <workItem from="1547410659332" duration="29000" />
-      <workItem from="1547416203088" duration="5840000" />
+      <workItem from="1547416203088" duration="6118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19837000" />
+    <option name="totallyTimeSpent" value="20115000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1087" extended-state="1" />
+    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21503131" />
@@ -372,13 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="23" column="9" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -525,6 +527,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/waste-wizard.PNG">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
