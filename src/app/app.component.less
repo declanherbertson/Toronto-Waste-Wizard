@@ -1,4 +1,5 @@
 @import "../styles";
+
 .title-bar {
   margin: 10px 0 10px 0;
   height: 100px;
@@ -6,12 +7,13 @@
   align-items: center;
   justify-content: center;
   color: white;
-  background-image: linear-gradient(to right, @color-green, @color-blue);
+  background-image: linear-gradient(to right, @color-blue, @color-green);
 
   .title {
     font-size: 40px;
   }
 }
+
 .app-body {
   margin: 8px;
   .search-bar {
@@ -25,13 +27,23 @@
       font-size: 25px;
       padding-left: 20px;
     }
-    button {
-      height: 45px;
+    .search-button-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       align-self: center;
+      height: 45px;
+      width: 45px;
+      background-color: @color-green;
+      .search-button {
+        color: white;
+      }
     }
+
   }
   .favourites-title {
     font-size: 32px;
+    margin: 0;
     color: @color-green;
   }
 }

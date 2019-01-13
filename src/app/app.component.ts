@@ -29,8 +29,19 @@ export class AppComponent {
         this.favourites = this.favourites.filter((favourite: WasteCategory) => !wasteCategoryComparator(favourite, category));
     }
 
+    public inputKeyEvent(event: any): void {
+        const searchVal: string = event.target.value;
+        console.log(searchVal);
+        // clears search results if search field is cleared
+        if (event.key === 'Backspace' && searchVal === '') {
+            this.searchResults = [];
+        // searches is Enter is pressed
+        } else if (event.key === 'Enter') {
+            this.searchResults = this._searchService.search(searchVal.toLowerCase());
+        }
+    }
+
     private inFavourites(category: WasteCategory): boolean {
-        // todo check if body is unique -- make better check
         return this.favourites.some((favourite: WasteCategory) => wasteCategoryComparator(favourite, category));
     }
 }

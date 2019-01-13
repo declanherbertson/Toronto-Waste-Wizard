@@ -3,8 +3,10 @@
 </div>
 <div class="app-body">
     <div class="search-bar">
-        <input #searchInput>
-        <button (click)="searchItems(searchInput.value)">Search</button>
+        <input #searchInput (keyup)="inputKeyEvent($event)">
+        <div class="search-button-container">
+            <i class="fa fa-search fa-flip-horizontal fa-2x search-button" (click)="searchItems(searchInput.value)"></i>
+        </div>
     </div>
     <app-waste-category *ngFor="let item of searchResults"
                         [wasteCategory]="item"
