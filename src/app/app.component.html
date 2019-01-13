@@ -12,7 +12,6 @@
                         (removeFromFavourites)="removeFromFavourites($event)">
     </app-waste-category>
     <h2 class="favourites-title">Favourites</h2>
-    <i class="fa fa-american-sign-language-interpreting fa-5x" aria-hidden="true"> </i>
     <app-waste-category *ngFor="let item of favourites"
                         [wasteCategory]="item"
                         (addToFavourites)="addToFavourites($event)"

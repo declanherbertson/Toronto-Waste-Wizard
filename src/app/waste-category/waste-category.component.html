@@ -1,6 +1,8 @@
 <div class="category-container">
-    <button *ngIf="wasteCategory.favourite" (click)="toggleFavourite()">*</button>
-    <button *ngIf="!wasteCategory.favourite" (click)="toggleFavourite()">x</button>
+    <i class="fa fa-star fa-lg"
+       (click)="toggleFavourite()"
+       [ngClass]="{favourite: wasteCategory.favourite, standard: !wasteCategory.favourite}">
+    </i>
     <div class="category-title">
         {{wasteCategory.title}}
     </div>
