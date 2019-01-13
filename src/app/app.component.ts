@@ -10,5 +10,10 @@ export class AppComponent {
     title = 'Waste-Wizard';
 
     constructor(private _searchService: SearchService) {
+        // this._searchService.search('takeout').subscribe(console.log);
+    }
+
+    public searchItems(keyword: string): void {
+        this._searchService.search(keyword.toLowerCase()).subscribe(console.log);
     }
 }
