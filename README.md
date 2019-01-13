@@ -1,6 +1,7 @@
 # WasteWizard
 
 This project was built for the following challenge using Angular, TypeScript, Less, and Font Awesome Icons
+<br>link to deployed version: https://declanherbertson.github.io/wasteWizard/
 
 # Web Engineer Challenge - Summer 2019
 
