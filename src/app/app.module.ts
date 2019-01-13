@@ -3,10 +3,12 @@ import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {HttpClientModule} from '@angular/common/http';
+import { WasteCategoryComponent } from './waste-category/waste-category.component';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        WasteCategoryComponent
     ],
     imports: [
         BrowserModule,

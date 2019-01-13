@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {WasteItem} from './models/wasteItem';
+import {WasteCategory} from './models/wasteCategory';
 import {Observable} from 'rxjs';
 
 // Normally these processes would be handled by a server, and the search queries would be made by api calls.
@@ -15,26 +15,26 @@ const WASTE_DATA_URL = 'https://secure.toronto.ca/cc_sr_v1/data/swm_waste_wizard
 })
 export class SearchService {
 
-    public allWasteItems: WasteItem[];
+    public allWasteCategories: WasteCategory[];
 
     constructor(private _http: HttpClient) {
-        this.fetchItems().subscribe((items: WasteItem[]) => {
+        this.fetchItems().subscribe((items: WasteCategory[]) => {
             console.log(items);
-            this.allWasteItems = items;
+            this.allWasteCategories = items;
         });
     }
 
     // returns an Observable of an Array of WasteItems that each items keywords contains the supplied keyword
-    public search(keyword: string): WasteItem[] {
-        return this.filterByKeyWord(keyword, this.allWasteItems);
+    public search(keyword: string): WasteCategory[] {
+        return this.filterByKeyWord(keyword, this.allWasteCategories);
     }
 
-    private fetchItems(): Observable<WasteItem[]> {
-        return this._http.get<WasteItem[]>(WASTE_DATA_URL);
+    private fetchItems(): Observable<WasteCategory[]> {
+        return this._http.get<WasteCategory[]>(WASTE_DATA_URL);
     }
 
-    private filterByKeyWord(keyword: string, allItems: WasteItem[]): WasteItem[] {
-        return allItems.filter((item: WasteItem) => {
+    private filterByKeyWord(keyword: string, allItems: WasteCategory[]): WasteCategory[] {
+        return allItems.filter((item: WasteCategory) => {
             const itemKeywords: Array<string> = item.keywords.split(', ');
             // return true if either the keyword matches the supplied word, or the keyword contains the supplied word
             return itemKeywords.some(itemKey => itemKey === keyword || itemKey.includes(keyword));

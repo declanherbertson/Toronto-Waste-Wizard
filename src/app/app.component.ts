@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {SearchService} from './search.service';
+import {WasteCategory} from './models/wasteCategory';
 
 @Component({
     selector: 'app-root',
@@ -7,13 +8,13 @@ import {SearchService} from './search.service';
     styleUrls: ['./app.component.less']
 })
 export class AppComponent {
-    title = 'Waste-Wizard';
-
+    public searchResults: WasteCategory[] = [];
+    public favourites: WasteCategory[] = [];
     constructor(private _searchService: SearchService) {
-        // this._searchService.search('takeout').subscribe(console.log);
     }
 
     public searchItems(keyword: string): void {
-        console.log(this._searchService.search(keyword.toLowerCase()));
+        this.searchResults = this._searchService.search(keyword.toLowerCase());
+        console.log(this.searchResults);
     }
 }
