@@ -16,7 +16,6 @@ export class AppComponent {
 
     public searchItems(keyword: string): void {
         this.searchResults = this._searchService.search(keyword.toLowerCase());
-        console.log(this.searchResults);
     }
 
     public addToFavourites(category: WasteCategory): void {
@@ -31,7 +30,6 @@ export class AppComponent {
 
     public inputKeyEvent(event: any): void {
         const searchVal: string = event.target.value;
-        console.log(searchVal);
         // clears search results if search field is cleared
         if (event.key === 'Backspace' && searchVal === '') {
             this.searchResults = [];

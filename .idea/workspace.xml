@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b55c6c5-d306-4bcb-b3ae-6eda8495d16e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/waste-category/waste-category.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/waste-category/waste-category.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/search.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/search.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -48,7 +48,7 @@
           <entry key="json" value="7" />
           <entry key="less" value="13" />
           <entry key="png" value="1" />
-          <entry key="ts" value="23" />
+          <entry key="ts" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -60,7 +60,7 @@
           <entry key="JavaScript" value="1" />
           <entry key="Less" value="13" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="23" />
+          <entry key="TypeScript" value="25" />
           <entry key="tsconfig" value="2" />
         </counts>
       </usages-collector>
@@ -75,7 +75,7 @@
           <entry key="html" value="1035" />
           <entry key="json" value="83" />
           <entry key="less" value="786" />
-          <entry key="ts" value="4915" />
+          <entry key="ts" value="4929" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -83,18 +83,39 @@
           <entry key="HTML" value="1035" />
           <entry key="JSON" value="83" />
           <entry key="Less" value="786" />
-          <entry key="TypeScript" value="4915" />
+          <entry key="TypeScript" value="4929" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/waste-category/waste-category.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="170">
+              <caret line="11" column="102" lean-forward="true" selection-start-line="11" selection-start-column="102" selection-end-line="11" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/search.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,6 +145,9 @@
       <find>favic</find>
       <find>favico</find>
       <find>todo</find>
+      <find>console.log</find>
+      <find>console.lo</find>
+      <find>console</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\decla\projectSpace\Toronto-Waste-Wizard\src</dir>
@@ -143,13 +167,13 @@
         <option value="$PROJECT_DIR$/src/app/waste-category/waste-category.component.less" />
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/search.service.ts" />
         <option value="$PROJECT_DIR$/src/tsconfig.app.json" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/angular.json" />
         <option value="$PROJECT_DIR$/src/app/app.component.less" />
         <option value="$PROJECT_DIR$/src/app/waste-category/waste-category.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/search.service.ts" />
       </list>
     </option>
   </component>
@@ -202,7 +226,7 @@
     <property name="SearchEverywhereHistoryKey" value="favour&#9;null&#9;null&#10;favourite&#9;null&#9;null&#10;tslint&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/tslint.json&#10;app&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/app.component.ts&#10;appc&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/app.component.less&#10;wast&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/waste-category/waste-category.component.html&#10;waste&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/waste-category/waste-category.component.less&#10;font&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/node_modules/font-awesome/css/font-awesome.css&#10;style&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/styles.less&#10;angular&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/angular.json&#10;package.js&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/package.json&#10;sear&#9;FILE&#9;file://C:/Users/decla/projectSpace/Toronto-Waste-Wizard/src/app/search.service.ts&#10;module&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547421583767" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547421791849" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -277,12 +301,12 @@
       <workItem from="1547345450680" duration="13710000" />
       <workItem from="1547409835087" duration="258000" />
       <workItem from="1547410659332" duration="29000" />
-      <workItem from="1547416203088" duration="5274000" />
+      <workItem from="1547416203088" duration="5583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19271000" />
+    <option name="totallyTimeSpent" value="19580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -382,28 +406,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-34">
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/search.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="115" selection-start-line="9" selection-start-column="115" selection-end-line="9" selection-end-column="115" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -494,8 +501,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/waste-category/waste-category.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="170">
+          <caret line="11" column="102" lean-forward="true" selection-start-line="11" selection-start-column="102" selection-end-line="11" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/search.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

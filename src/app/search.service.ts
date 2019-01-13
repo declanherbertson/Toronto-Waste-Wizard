@@ -23,7 +23,6 @@ export class SearchService {
                 item.favourite = false;
                 return item;
             });
-            console.log(this.allWasteCategories);
         });
     }
 
