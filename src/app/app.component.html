@@ -1,16 +1,20 @@
-<input #searchInput>
-<button (click)="searchItems(searchInput.value)">Search</button>
-
-<h2>Search Results</h2>
-<app-waste-category *ngFor="let item of searchResults"
-                    [wasteCategory]="item"
-                    (addToFavourites)="addToFavourites($event)"
-                    (removeFromFavourites)="removeFromFavourites($event)">
-</app-waste-category>
-
-<h2>Favourites</h2>
-<app-waste-category *ngFor="let item of favourites"
-                    [wasteCategory]="item"
-                    (addToFavourites)="addToFavourites($event)"
-                    (removeFromFavourites)="removeFromFavourites($event)">
-</app-waste-category>
+<div class="title-bar">
+    <h1 class="title">Toronto Waste Lookup</h1>
+</div>
+<div class="app-body">
+    <div class="search-bar">
+        <input #searchInput>
+        <button (click)="searchItems(searchInput.value)">Search</button>
+    </div>
+    <app-waste-category *ngFor="let item of searchResults"
+                        [wasteCategory]="item"
+                        (addToFavourites)="addToFavourites($event)"
+                        (removeFromFavourites)="removeFromFavourites($event)">
+    </app-waste-category>
+    <h2 class="favourites-title">Favourites</h2>
+    <app-waste-category *ngFor="let item of favourites"
+                        [wasteCategory]="item"
+                        (addToFavourites)="addToFavourites($event)"
+                        (removeFromFavourites)="removeFromFavourites($event)">
+    </app-waste-category>
+</div>
